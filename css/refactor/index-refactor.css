@@ -81,3 +81,31 @@
     background-color: #8fd300;
     color: white;
 }
+
+#exper_div_all {
+    justify-content: center;
+}
+
+.refactor-banner-image {
+    background-position: top;
+}
+
+.refactor-banner-image.bn3 {
+    height: 1288px;
+    background-size: 1920px 1288px;
+}
+
+.refactor-banner-image.bn4 {
+    height: 1567px;
+    background-size: 1920px 1567px;
+}
+
+.refactor-banner-image.bn5 {
+    height: 1484px;
+    background-size: 1920px 1484px;
+}
+
+.refactor-banner-image.bn6 {
+    height: 1103px;
+    background-size: 1920px 1103px;
+}
