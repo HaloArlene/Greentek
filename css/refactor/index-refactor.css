@@ -1,0 +1,83 @@
+#accordion, #accordion * {
+    box-sizing: border-box;
+}
+
+#accordion {
+    padding: 30px 0;
+}
+
+#accordion > li > a {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    border-radius: 20px;
+    display: block;
+    font-weight: bold;
+    transition: all .3s;
+}
+
+#accordion > li:hover > a {
+    background-color: #8fd300 !important;
+    color: white;
+    border: none;
+}
+
+#accordion > li.simple-dropdown > a {
+    padding-right: 30px;
+}
+
+.simple-dropdown {
+    position: relative !important;
+}
+
+.simple-dropdown .dropdown-menu {
+    top: 50px !important;
+}
+
+.simple-dropdown:after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../../images/greentek/index/dropdown_angle.png");
+    position: absolute;
+    bottom: 16px;
+    right: 30px;
+    transition: all .5s;
+}
+
+.simple-dropdown:hover:after {
+    background-image: url("../../images/greentek/index/dropdown_angle_hover.png");
+    transform: rotate(-180deg);
+}
+
+#navbar-collapse-toggle-1 .lang-toggle-box {
+    height: 40px;
+    width: 104px;
+    border-radius: 20px;
+    border:  1px solid #EEEEEE;
+    position: absolute;
+    right: -140px;
+    top: 30px;
+    background-color: #F8F8FF;
+    display: flex;
+    align-items: center;
+}
+
+#navbar-collapse-toggle-1 .lang-toggle-box > span{
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#navbar-collapse-toggle-1 .lang-toggle-box > span.active {
+    background-color: #8fd300;
+    color: white;
+}
